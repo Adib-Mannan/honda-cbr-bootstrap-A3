@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+small{
+    font-family: 'Poppins', sans-serif; 
+    color: #6C6C6C;
+}
+/* header  */
+.custom-header-color{
+    background-color: #264653;
+}
+.h-writing{
+    color: #E0E0E0;
+}
+.buy-button{
+    text-decoration:none ;
+    background-color: #E76F51;
+    font-weight: 700px;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+/* main  */
+.custom-font-weight{
+    font-weight: bolder;
+}
+.custom-color{color: #E76F51;
+}
+.gray-scale{
+    filter: grayscale(100%);
+}
+.card-img{
+    height: 149px;
+    width: 149px;
+}
+.fa-star{
+   color:  #E77C40;
+}
+.banker{
+    color: #252B42;
+}
