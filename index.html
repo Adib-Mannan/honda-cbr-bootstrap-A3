@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles.css">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/790b577b12.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/honda.webp" type="image/x-icon">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
         <!-- navbar start -->
         <nav class="container navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
-                <a class="navbar-brand order-1 ps-5 text-white" href="#">Login</a>
+                <a class="navbar-brand order-1 ms-5  text-white log-button" href="#">Login</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -38,8 +39,8 @@
                         <li class="nav-item pe-3">
                             <a class="nav-link text-white" href="#">News</a>
                         </li>
-                        <li class="nav-item pe-3">
-                            <a class="nav-link text-white" href="#">Contact</a>
+                        <li class="nav-item pe-4">
+                            <a class="nav-link text-white" href="#Subscribe">Contact</a>
                         </li>
                     </ul>
 
@@ -49,9 +50,9 @@
         <!-- navbar end  -->
 
         <!-- header prewiew -->
-        <section class="container mt-2 pb-5">
+        <section class="container mt-3 pb-5">
             <div class="row d-flex align-items-center">
-                <div class="col-lg-6 text-white">
+                <div class="col-lg-6 text-white pb-3">
                     <p><small class="h-writing">Computer-controlled digital transistorized with electronic
                             advance</small></p>
                     <h1 class="pb-3">Honda CBR 300R</h1>
@@ -91,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 pt-5">
+                <div class="col-lg-6 pt-5 pb-3">
                     <img class="w-100" src="images/header-bike.png" alt="">
                 </div>
             </div>
@@ -104,7 +105,7 @@
     <!-- main start  -->
     <main>
         <!-- preview bike  -->
-        <section class="container mt-5 ">
+        <section class="container mt-5 pb-3">
             <div class="text-center ">
                 <h1 class="custom-font-weight">Fetured Bikes 2021</h1>
                 <small class="custom-color">Best bike collection</small>
@@ -119,12 +120,59 @@
                 <div class="col-lg-4 ps-5 pt-5">
                     <img class="w-100 gray-scale" src="images/feature-bike.jpg" alt="">
                 </div>
+            </div>
+        </section>
+        <!-- latest News -->
+        <section class="container mt-5 pt-5 mb-5 pb-5">
+            <h1 class="text-center custom-font-weight pb-5">Latest News</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 p-2">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">The new sports version, the Black Star, and the matt black total look
+                                version, the XDiavel Dark, further enhance the strengths of the . </p>
+                            <a class="btn buy-button text-white" target="_blank"
+                                href="https://www.ducati.com/ww/en/bikes/xdiavel/xdiavel">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-2 rounded-3">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Motorcycles & Scooters</h5>
+                            <p class="card-text">Maxi scooters are becoming increasingly popular and we’re not
+                                surprised!
 
+                                With their added stability, luxurious edge, </p>
+                            <a class="btn buy-button text-white" target="_blank"
+                                href="https://www.motoden.com/motorcycles-and-scooters">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-2">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Is it any wonder why the Honda CBR500R is one of our most popular
+                                sportbikes? It just gets so many things right. Price. Power.
+                            </p>
+                            <a class="btn buy-button text-white" target="_blank"
+                                href="https://powersports.honda.com/street/sport/cbr500r">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Happy Clients  -->
-        <section class="container mt-5 pt-5">
-            <h1 class="text-center custom-font-weight "><span>Happy</span> <span class="custom-color">Clients
+        <section class="container mt-5 pt-5 pb-3">
+            <h1 class="text-center custom-font-weight pb-4"><span>Happy</span> <span class="custom-color">Clients
                     says</span></h1>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 pt-5 g-5">
                 <div class="col">
@@ -208,7 +256,7 @@
                 <div class="col-lg-6  pt-5 ">
                     <img class="w-100" src="images/faq.png" alt="">
                 </div>
-                <div class="col-lg-6 pt-5">
+                <div class="col-lg-6 pt-5 ">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item ">
                             <h2 class="accordion-header" id="headingOne">
@@ -284,14 +332,139 @@
                 </div>
             </div>
         </section>
+        <!-- Carousel  -->
+
+        <h1 class="text-center custom-font-weight mt-5 pt-4">Bike hightlight</h1>
+        <section class="container mt-5 custom-header-color ">
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row d-flex align-items-center p-5">
+                                <div class="col-lg-6">
+                                    <h1 class="text-white">Ducati XDIAVEL S-73</h1>
+                                    <p><small class="h-writing">XDiavel, the Ducati cruiser that combines the best of
+                                            both
+                                            worlds, is renewed,
+                                            still remaining true to its philosophy. </small></p>
+                                    <button class="btn read-button text-white">Read More
+                                    </button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="images/387-3875172_xdiavel-s-ducati-xdiavel.png" class="d-block w-100"
+                                        height="321" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex align-items-center p-5">
+                                <div class="col-lg-6">
+                                    <h1 class="text-white">Honda 2020 CBR650R</h1>
+                                    <p><small class="h-writing">Sportbikes are a special breed: explosive power, full
+                                            faired
+                                            styling, nimble handling. And with the Honda CBR650R, we’ve taken sportbike
+                                            expectations to a whole new level. </small></p>
+                                    <button class="btn read-button text-white">Read More
+                                    </button>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <img src="images/2020-cbr650r-abs-matte_black_metallic-650x380.webp"
+                                        class="d-block w-100 " height="321px" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row d-flex align-items-center p-5">
+                                <div class="col-lg-6">
+                                    <h1 class="text-white">Honda CBR150R</h1>
+                                    <p><small class="h-writing">The 2021 Honda CBR150R has been launched in Indonesia.
+                                            The
+                                            updated model comes with a much more aggressive bodywork similar to the
+                                            Honda
+                                            CBR250RR.</small></p>
+                                    <button class="btn read-button text-white">Read More
+                                    </button>
+                                </div>
+                                <div class="col-lg-6 ">
+                                    <img src="images/motorcycle_PNG3149.png" class="d-block w-100" height="321px"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- POPULAR BRANDS -->
+        <section class="container mt-5 pt-5">
+            <h1 class="text-center custom-font-weight ">Popular Brands</h1>
+            <div class="row g-5 pt-5">
+                <div class="col-lg-2">
+                    <a target="_blank" href="https://www.suzuki.com.bd/">
+                        <img class="w-100" src="images/suzuki.200x100.png" alt=""></a>
+                </div>
+                <div class="col-lg-2">
+                    <a target="_blank" href="https://www.honda.com/">
+                        <img class="w-100" src="images/honda.200x100.png" alt=""></a>
+                </div>
+                <div class="col-lg-2">
+                    <a target="_blank" href="https://yamaha-motor.com/">
+                        <img class="w-100" src="images/yamaha.200x100.png" alt=""></a>
+                </div>
+                <div class="col-lg-2 pt-2">
+                    <a target="_blank" href="https://www.tvsmotor.com/">
+                        <img class="w-100" src="images/download.png" alt=""></a>
+                </div>
+                <div class="col-lg-2">
+                    <a target="_blank" href="https://www.vortexracing.com/">
+                        <img class="w-100" src="images/vortex.black.200x100.png" alt=""></a>
+                </div>
+                <div class="col-lg-2 pt-2">
+                    <a target="_blank" href="https://www.ducati.com/ww/en/bikes/xdiavel/xdiavel">
+                        <img class="w-100" src="images/images.png" alt=""></a>
+                </div>
+            </div>
+
+        </section>
     </main>
     <!-- main end  -->
 
     <!-- footer start  -->
-    <footer>
-
+    <footer class="bg-dark mb-0">
+        <!-- subscribe -->
+        <section style="height: 300px;"
+            class="container mt-5 d-flex justify-content-center align-items-center rounded-3 " id="Subscribe">
+            <div>
+                <h1 class="text-white">LET'S STAY IN TOUCH</h1>
+                <p class="text-white"> Get updates on sales, specials and more</p>
+                <input type="email" class="form-control" name="Email" id="" placeholder="Enter your email">
+                <br>
+                <button type="button" class=" btn buy-button text-white">Submit</button>
+            </div>
+        </section>
+        <div>
+            <h5 class="text-center text-white pb-3">© 2021 bike. All rights reserved</h5>
+        </div>
     </footer>
-
     <!-- footer end  -->
     <!-- js bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

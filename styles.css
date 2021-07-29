@@ -13,6 +13,13 @@ small{
 .custom-header-color{
     background-color: #264653;
 }
+.log-button{
+    text-decoration:none ;
+    background-color: #E76F51;
+    font-weight: 700px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
 .h-writing{
     color: #E0E0E0;
 }
@@ -41,4 +48,11 @@ small{
 }
 .banker{
     color: #252B42;
+}
+.read-button{
+    text-decoration:none ;
+    background-color: #E76F51;
+    font-weight: 700px;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
