@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* body  */
+ h1{
     font-family: 'Poppins', sans-serif;
 }
 p{
@@ -8,11 +10,13 @@ p{
 small{
     font-family: 'Poppins', sans-serif; 
     color: #6C6C6C;
+    font-weight: 400;
 }
 /* header  */
 .custom-header-color{
     background-color: #264653;
 }
+/* nav  */
 .log-button{
     text-decoration:none ;
     background-color: #E76F51;
@@ -20,6 +24,7 @@ small{
     padding: 5px 20px;
     border-radius: 5px;
 }
+/* header preview */
 .h-writing{
     color: #E0E0E0;
 }
@@ -32,9 +37,15 @@ small{
 }
 /* main  */
 .custom-font-weight{
-    font-weight: bolder;
+    font-weight: 700;
 }
 .custom-color{color: #E76F51;
+}
+.custom-color2{
+    color: #0A0826;
+}
+.custom-color3{
+    color: #0D0925;
 }
 .gray-scale{
     filter: grayscale(100%);
